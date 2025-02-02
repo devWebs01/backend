@@ -42,7 +42,7 @@ app.use("/kalkulatorBMI", kalkulatorBMI);
 app.use("/kalkulatorKalori", kalkulatorKalori);
 app.use("/transaksi", Transaksi);
 app.use("/chat", Chat);
-app.post("/upload", (req, res) => {});
+app.post("/upload", (req, res) => { });
 
 initializeSocket(server);
 
